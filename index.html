@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript Beginner Projects: Tic Tac Toe</title>
+  <style>
+    .header {
+      font-size: 3em;
+      color: white;
+      background: #404040;
+      text-align: center;
+      height: 2.5em;
+      text-shadow: 4px 4px 4px black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 1em;
+    }
+
+    #description {
+      font-size: 2em;
+      color: white;
+      height: 50px;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .square {
+      width: 192px;
+      height: 192px;
+      background: white;
+      border-radius: 16px;
+      border: 4px solid grey;
+      margin: 4px;
+    }
+
+    .highlight {
+      border-color: red;
+    }
+
+    body {
+      background: #202020;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span>Tic Tac Toe!</span>
+  </div>
+  <div class="container">
+    <div id="description"></div>
+  </div>
+  <div id="rows">
+  </div>
+  <script src="main.js" type="module">
+  </script>
+</body>
+</html>
